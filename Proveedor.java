@@ -4,3 +4,7 @@ public class Proveedor {
     private String nombre; 
     
 }
+public Proveedor (String nif, String nombre) {
+        this.nif = nif;
+        this.nombre = nombre;
+}
